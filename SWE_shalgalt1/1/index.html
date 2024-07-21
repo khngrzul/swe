@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th colspan="4" class="center bold-header">Registration Form</th>
+            </tr>
+            <tr>
+                <th>Student Name</th>
+                <th><input type="text" placeholder="First Name"></th>
+                <th><input type="text" placeholder="Middle Name"></th>
+                <th><input type="text" placeholder="Last Name"></th>
+            </tr>
+            <tr>
+                <th>Father's Name</th>
+                <th><input type="text" placeholder="Enter your Father's name"></th>
+                <th>Mother's Name</th>
+                <th><input type="text" placeholder="Enter your Mother's name"></th>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <th><input type="date"></th>
+                <th>Gender</th>
+                <th>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </th>
+            </tr>
+            <tr>
+                <th>Category</th>
+                <th>
+                    <input type="radio" name="Category" value="Gen">
+                    <label for="Gen">Gen</label>
+                    <input type="radio" name="Category" value="OBC">
+                    <label for="OBC">OBC</label>
+                    <input type="radio" name="Category" value="SC/ST">
+                    <label for="SC/ST">SC/ST</label>
+                </th>
+                <th>Handicapped</th>
+                <th>
+                    <input type="radio" name="Handicapped" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="Handicapped" value="no">
+                    <label for="no">No</label>
+                </th>
+                <tr>
+                    <th>Ex-Serviceman</th>
+                    <th>
+                        <input type="radio" name="Handicapped" value="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="Handicapped" value="no">
+                        <label for="no">No</label>
+                    </th>
+                    <th>EWS</th>
+                    <th>
+                        <input type="radio" name="Handicapped" value="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="Handicapped" value="no">
+                        <label for="no">No</label>
+                    </th>
+                    <tr>
+                        <th>Email ID</th>
+                        <th><input type="text"></th>
+                        <th>Mobile No.</th>
+                        <th><input type="text"></th>
+                    </tr>
+                    <tr>
+                        <th>State</th>
+                        <th>
+                            <select id="state" name="state">
+                                <option value="">Alibama</option>
+                                <option value="">Alaska</option>
+                                <option value="">Delaware</option>
+                            </select>
+                        </th>
+                        <th>City</th>
+                        <th>
+                            <select name="City" id="City">
+                                <option value="">L.A</option>
+                                <option value="">France</option>
+                                <option value="">Vienna</option>
+                                <option value="">Singapore</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Upload Photo</th>
+                        <th><input type="file"></th>
+                        <th>Upload Signature</th>
+                        <th><input type="file"></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th colspan="3" class="center"><input type="button" value="Submit"></th>
+                    </tr>
+                </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
